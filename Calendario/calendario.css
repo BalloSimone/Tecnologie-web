@@ -1,0 +1,85 @@
+#header{
+    text-align: center;
+    width: 100%;
+    color: #0f4852;
+    font-size: 40px;
+}
+
+
+body{
+    background-color: #f0f7f7;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#description{
+    padding: 30px;
+    margin: 20px;
+    flex: 1 1 40%;
+    background-color: #e6f3f4;
+    border-radius: 5%;
+    border: 0.5vh solid #4bb2b9; 
+    color: #2aa39f;
+    font-size: 26px;
+}
+
+#calendario{
+    padding: 30px;
+    margin: 20px;
+    flex: 1 1 40%;
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #e6f3f4;
+    border-radius: 5%;
+    border: 0.5vh solid #4bb2b9   
+}
+
+#day{
+    box-sizing: border-box;
+    flex: 0 1 12%;
+    text-align: center;
+    margin: 1%;
+    max-height: 8vh;
+}
+.nameOfDay{
+    color: #9ad7df;
+}
+
+.number{
+    color: #d6fcff;
+    border: 0.2vh solid #4bb2b9      
+}
+
+.su{
+    color: #4bb2b9;
+}
+
+#month{
+    flex: 0 1 100%;
+    border-color: black;
+    text-align: center;
+    color: #4bb2b9;
+}
+
+button.number{
+    background-color: #9ad7df;
+    border-radius: 60rem;     
+}
+
+button:hover{
+    background-color: #298291;
+    
+}
+
+button:hover.su{
+    color: #d6fcff;
+}
+
+button:active{
+    background-color: #0f4852;
+}

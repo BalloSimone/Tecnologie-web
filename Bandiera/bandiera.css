@@ -1,0 +1,391 @@
+.bandiera {
+    width: 100vh;
+    height: 100vh;
+    position: absolute;
+  }
+
+
+  .triangolo-superiore {
+    width: 0;
+    height: 4vh;
+    margin-left: 3vh;
+    border-right: 65vh solid transparent;
+    position: absolute;
+    border-bottom: 42vh solid #DC143C;
+    z-index: 1;
+  }
+  
+  .triangolo-inferiore {
+    width: 15vh;
+    height: 40vh;
+    margin-left: 3vh;
+    border-right: 51vh solid transparent;
+    position: absolute;
+    border-bottom: 54vh solid #DC143C;
+    z-index: 1;
+  }
+
+  .contorno-superiore{
+    width: 0;
+    height: 0;
+    margin-left: 1vh;
+    border-right: 76vh solid transparent;
+    position: absolute;
+    border-bottom: 49vh solid #1d2799;
+    z-index: 0;
+  }
+
+  .contorno-inferiore{
+    width: 20vh;
+    height: 40vh;
+    margin-left: 1vh;
+    border-right: 55vh solid transparent;
+    position: absolute;
+    border-bottom: 57vh solid #1d2799;
+    z-index: 0;
+  }
+
+  .contorno-laterale{
+    width: 1vh;
+    height: 0vh;
+    margin-left: 0;
+    position: absolute;
+    border-right: 0 solid transparent;
+    border-bottom: 97vh solid #1d2799;
+    z-index: 0;
+  }
+
+  .cerchio-inferiore {
+    width: 12vh;
+    height: 10vh;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 66.2vh;
+    left: 14vh;
+    z-index: 2; /* Per sovrapporre gli elementi correttamente */
+  }
+
+
+  .spunta1A{
+    width: 0;
+    height: 0;
+    border-left: 4.5vh solid transparent;
+    border-right: 4.5vh solid transparent;
+    border-bottom: 11vh solid white;
+    position: absolute;
+    top: 56vh;
+    left: 14.75vh;
+    z-index: 3; /* Per sovrapporre gli elementi correttamente */
+  }
+
+  .spunta2A{
+    width: 0;
+    height: 0;
+    border-left: 4.5vh solid transparent;
+    border-right: 4.5vh solid transparent;
+    border-bottom: 11vh solid white;
+    position: absolute;
+    top: 57vh;
+    left: 19.75vh;
+    rotate: 30deg;
+    z-index: 3; /* Per sovrapporre gli elementi correttamente */
+  }
+
+  .spunta3A{
+    width: 0;
+    height: 0;
+    border-left: 4.5vh solid transparent;
+    border-right: 4.5vh solid transparent;
+    border-bottom: 11vh solid white;
+    position: absolute;
+    top: 57vh;
+    left: 9.75vh;
+    rotate: -30deg;
+    z-index: 3; /* Per sovrapporre gli elementi correttamente */
+  }
+
+  .spunta4A{
+    width: 0;
+    height: 0;
+    border-left: 4.5vh solid transparent;
+    border-right: 4.5vh solid transparent;
+    border-bottom: 11vh solid white;
+    position: absolute;
+    top: 60vh;
+    left: 22.75vh;
+    rotate: 60deg;
+    z-index: 3; /* Per sovrapporre gli elementi correttamente */
+  }
+
+  .spunta5A{
+    width: 0;
+    height: 0;
+    border-left: 4.5vh solid transparent;
+    border-right: 4.5vh solid transparent;
+    border-bottom: 11vh solid white;
+    position: absolute;
+    top: 60vh;
+    left: 6.75vh;
+    rotate: -60deg;
+    z-index: 3; /* Per sovrapporre gli elementi correttamente */
+  }
+
+  .spunta6A{
+    width: 0;
+    height: 0;
+    border-left: 4.5vh solid transparent;
+    border-right: 4.5vh solid transparent;
+    border-bottom: 11vh solid white;
+    position: absolute;
+    top: 64vh;
+    left: 23.75vh;
+    rotate:90deg;
+    z-index: 3; /* Per sovrapporre gli elementi correttamente */
+  }
+
+  .spunta7A{
+    width: 0;
+    height: 0;
+    border-left: 4.5vh solid transparent;
+    border-right: 4.5vh solid transparent;
+    border-bottom: 11vh solid white;
+    position: absolute;
+    top: 64vh;
+    left: 5.75vh;
+    rotate: -90deg;
+    z-index: 3; /* Per sovrapporre gli elementi correttamente */
+  }
+
+  .spunta8A{
+    width: 0;
+    height: 0;
+    border-left: 4.5vh solid transparent;
+    border-right: 4.5vh solid transparent;
+    border-bottom: 11vh solid white;
+    position: absolute;
+    top: 68vh;
+    left: 22.75vh;
+    rotate: 120deg;
+    z-index: 3; /* Per sovrapporre gli elementi correttamente */
+  }
+
+  .spunta9A{
+    width: 0;
+    height: 0;
+    border-left: 4.5vh solid transparent;
+    border-right: 4.5vh solid transparent;
+    border-bottom: 11vh solid white;
+    position: absolute;
+    top: 68vh;
+    left: 6.75vh;
+    rotate: -120deg;
+    z-index: 3; /* Per sovrapporre gli elementi correttamente */
+  }
+
+  .spunta10A{
+    width: 0;
+    height: 0;
+    border-left: 4.5vh solid transparent;
+    border-right: 4.5vh solid transparent;
+    border-bottom: 11vh solid white;
+    position: absolute;
+    top: 71vh;
+    left: 19.75vh;
+    rotate: 150deg;
+    z-index: 3; /* Per sovrapporre gli elementi correttamente */
+  }
+
+  .spunta11A{
+    width: 0;
+    height: 0;
+    border-left: 4.5vh solid transparent;
+    border-right: 4.5vh solid transparent;
+    border-bottom: 11vh solid white;
+    position: absolute;
+    top: 71vh;
+    left: 9.75vh;
+    rotate: -150deg;
+    z-index: 3; /* Per sovrapporre gli elementi correttamente */
+  }
+
+  .spunta12A{
+    width: 0;
+    height: 0;
+    border-left: 4.5vh solid transparent;
+    border-right: 4.5vh solid transparent;
+    border-bottom: 11vh solid white;
+    position: absolute;
+    top: 72vh;
+    left: 14.75vh;
+    rotate: 180deg;
+    z-index: 3; /* Per sovrapporre gli elementi correttamente */
+  }
+
+  .mezzaluna{
+    width: 26vh;
+    height: 22vh;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 21vh;
+    left: 6vh;
+    z-index: 2; 
+  }
+
+  .nascondi-mezzaluna{
+    width: 26vh;
+    height: 20vh;
+    border-radius: 50%;
+    background-color: #DC143C;
+    position: absolute;
+    top:19vh;
+    left: 6vh;
+    z-index: 3;
+  }
+
+  .cerchio-superiore{
+    width: 10.2vh;
+    height: 10vh;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 31vh;
+    left: 13.85vh;
+    z-index: 4; /* Per sovrapporre gli elementi correttamente */
+  }
+
+  .spunta1B{
+    width: 0;
+    height: 0;
+    border-left: 1.5vh solid transparent;
+    border-right: 1.5vh solid transparent;
+    border-bottom: 3vh solid white;
+    position: absolute;
+    top: 29vh;
+    left: 19vh;
+    rotate: 22.5deg;
+    z-index: 4;
+  }
+
+  .spunta2B{
+    width: 0;
+    height: 0;
+    border-left: 1.5vh solid transparent;
+    border-right: 1.5vh solid transparent;
+    border-bottom: 3vh solid white;
+    position: absolute;
+    top: 29vh;
+    left: 16vh;
+    rotate: -22.5deg;
+    z-index: 3;
+  }
+
+  .spunta3B{
+    width: 0;
+    height: 0;
+    border-left: 1.5vh solid transparent;
+    border-right: 1.5vh solid transparent;
+    border-bottom: 3vh solid white;
+    position: absolute;
+    top: 30vh;
+    left: 21vh;
+    rotate: 45deg;
+    z-index: 5;
+  }
+
+  .spunta4B{
+    width: 0;
+    height: 0;
+    border-left: 1.5vh solid transparent;
+    border-right: 1.5vh solid transparent;
+    border-bottom: 3vh solid white;
+    position: absolute;
+    top: 30vh;
+    left: 14vh;
+    rotate: -45deg;
+    z-index: 3;
+  }
+
+  .spunta5B{
+    width: 0;
+    height: 0;
+    border-left: 1.5vh solid transparent;
+    border-right: 1.5vh solid transparent;
+    border-bottom: 3vh solid white;
+    position: absolute;
+    top: 32vh;
+    left: 22.5vh;
+    rotate: 67.5deg;
+    z-index: 3;
+  }
+
+  .spunta6B{
+    width: 0;
+    height: 0;
+    border-left: 1.5vh solid transparent;
+    border-right: 1.5vh solid transparent;
+    border-bottom: 3vh solid white;
+    position: absolute;
+    top: 32vh;
+    left: 12.5vh;
+    rotate: -67.5deg;
+    z-index: 3;
+  }
+
+  .spunta7B{
+    width: 0;
+    height: 0;
+    border-left: 1.5vh solid transparent;
+    border-right: 1.5vh solid transparent;
+    border-bottom: 3vh solid white;
+    position: absolute;
+    top: 34.5vh;
+    left: 23vh;
+    rotate: 90deg;
+    z-index: 3;
+  }
+
+  .spunta8B{
+    width: 0;
+    height: 0;
+    border-left: 1.5vh solid transparent;
+    border-right: 1.5vh solid transparent;
+    border-bottom: 3vh solid white;
+    position: absolute;
+    top: 34.5vh;
+    left: 12vh;
+    rotate: -90deg;
+    z-index: 3;
+  }
+
+  .spunta9B{
+    width: 0;
+    height: 0;
+    border-left: 1.5vh solid transparent;
+    border-right: 1.5vh solid transparent;
+    border-bottom: 3vh solid white;
+    position: absolute;
+    top: 37vh;
+    left: 23vh;
+    rotate: 112.5deg;
+    z-index: 5;
+  }
+
+  .spunta10B{
+    width: 0;
+    height: 0;
+    border-left: 1.5vh solid transparent;
+    border-right: 1.5vh solid transparent;
+    border-bottom: 3vh solid white;
+    position: absolute;
+    top: 37vh;
+    left: 12vh;
+    rotate: -112.5deg;
+    z-index: 3;
+  }
+
+
+  
+
+  
